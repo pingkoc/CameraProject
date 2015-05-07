@@ -6,10 +6,15 @@ android {
 
     defaultConfig {
         applicationId "honorsproject.cs241.cameraproject"
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
+        ndk {
+            moduleName "ndkDecode"
+            ldLibs "log"
+            cFlags "-pthread -O3 -std=c99"
+        }
     }
     buildTypes {
         release {
