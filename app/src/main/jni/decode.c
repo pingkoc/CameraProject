@@ -1,4 +1,7 @@
-/* MODIFIED C VERSION BY Ping-Ko Chiu, Original Version by Lawrence Angrave*/
+/*
+ * NCSA Copyright License Ping-Ko Chiu, please refer to readme.md for additional information
+ * Attribution: Lawrence Angrave for original decode function in Java
+ */
 
 #include <stdio.h>
 #include <jni.h>
