@@ -5,7 +5,7 @@ The project aims to provide simple real time processing of the Android Camera Pr
 Features YUV to RGB conversion, YUV to Grayscale, Gaussian Blur, Soebel Edge Detection, Frame Subtraction (subtraction of current frame with previous frame) and simple Motion Tracking (derived from Frame Subtraction).
 
 Compatibility not fully tested for all Android versions.
-Tested on Dragon Touch Y88X Tablet and Nexus 6.
+Tested on Dragon Touch Y88X Tablet and Nexus 6, both running Android KitKat.
 
 UIUC NCSA License:
 

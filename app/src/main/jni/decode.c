@@ -279,6 +279,7 @@ JNIEXPORT void JNICALL Java_honorsproject_cs241_cameraproject_Decode_decodeYUVGr
      * NDK function for decodeYUVGaussian.
      * Applies Gaussian Blur on Grayscale image
      * using convolution with 5x5 Gaussian Kernel
+     * No Optimizations, no multithread
      *
      * @param out
      *            the outgoing array of RGB bytes
@@ -390,6 +391,7 @@ void* sobelWorker(void* args) {
      * Applies Sobel edge detection on Grayscale image
      * using convolution with 3x3 X, Y Gradient Kernel
      * Multi-threaded for optimized performance (slight improvements, might be memory bound)
+     * Unrolled Loops for easier vectorization
      *
      * @param out
      *            the outgoing array of RGB bytes
